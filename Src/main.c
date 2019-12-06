@@ -1118,6 +1118,7 @@ void ArmTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+<<<<<<< HEAD
 		//test2***
 ////    if(LEDflage == true){
 ////			HAL_GPIO_WritePin(M2_A_GPIO_Port, M2_A_Pin, 1);
@@ -1125,6 +1126,14 @@ void ArmTask(void const * argument)
 ////		else {
 ////			HAL_GPIO_WritePin(M2_A_GPIO_Port, M2_A_Pin, 0);
 ////		}
+=======
+    if(LEDflage == true){
+			HAL_GPIO_WritePin(M2_A_GPIO_Port, M2_A_Pin, 1);
+		}
+		else {
+			HAL_GPIO_WritePin(M2_A_GPIO_Port, M2_A_Pin, 0);
+		}
+>>>>>>> parent of 4488c12... test1
   }
   /* USER CODE END ArmTask */
 }
