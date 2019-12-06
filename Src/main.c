@@ -1118,6 +1118,7 @@ void ArmTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+		//test2***
 ////    if(LEDflage == true){
 ////			HAL_GPIO_WritePin(M2_A_GPIO_Port, M2_A_Pin, 1);
 ////		}
